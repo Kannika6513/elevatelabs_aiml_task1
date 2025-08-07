@@ -86,5 +86,38 @@ To perform exploratory data analysis on the Titanic dataset to understand key fe
 
 ---
 
+# 🏠 House Price Prediction using Linear Regression
+
+This project predicts housing prices using **Linear Regression** on the `Housing.csv` dataset. It includes preprocessing, model training, evaluation, and visualization.
+
+---
+
+## 📁 Dataset
+The dataset contains 545 records and 13 features including:
+- **Numerical**: area, bedrooms, bathrooms, stories, parking
+- **Categorical**: mainroad, guestroom, basement, airconditioning, etc.
+- **Target**: `price` (house price)
+
+---
+
+## 📌 Steps Covered
+1. **Import & Preprocess** the dataset (encoding categorical variables)
+2. **Split** data into train and test sets
+3. **Train** a Linear Regression model using `sklearn.linear_model`
+4. **Evaluate** model using:
+   - MAE (Mean Absolute Error)
+   - MSE (Mean Squared Error)
+   - R² Score
+5. **Plot** predicted vs actual prices and print regression coefficients
+
+---
+
+## 📊 Model Results (Sample)
+- **MAE**: ~₹9.7 Lakhs  
+- **R² Score**: ~0.65  
+- **Interpretation**: Moderate fit. Coefficients show influence of each feature on price.
+
+---
+
 
 
