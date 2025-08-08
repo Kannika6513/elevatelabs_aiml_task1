@@ -10,7 +10,7 @@ The dataset contains passenger information such as age, sex, fare, family detail
 
 ---
 
-## ✅ Tasks Performed
+## ✅ Task 1 Performed
 
 ### 1. Data Loading
 - Loaded the Titanic dataset using `pandas`.
@@ -86,7 +86,7 @@ To perform exploratory data analysis on the Titanic dataset to understand key fe
 
 ---
 
-# 🏠 House Price Prediction using Linear Regression
+# 🏠 task 3 House Price Prediction using Linear Regression
 
 This project predicts housing prices using **Linear Regression** on the `Housing.csv` dataset. It includes preprocessing, model training, evaluation, and visualization.
 
@@ -118,6 +118,34 @@ The dataset contains 545 records and 13 features including:
 - **Interpretation**: Moderate fit. Coefficients show influence of each feature on price.
 
 ---
+# Task 4 Logistic Regression - Breast Cancer Classification
+
+This project demonstrates how to apply **Logistic Regression** for binary classification on the **Breast Cancer Wisconsin dataset**.
+
+## Project Steps
+1. **Dataset Selection**
+   - Uses `data.csv` (Breast Cancer Wisconsin dataset).
+2. **Data Preprocessing**
+   - Dropped unnecessary columns: `id`, `Unnamed: 32`
+   - Encoded target variable: `M` → 1 (Malignant), `B` → 0 (Benign)
+3. **Train/Test Split & Standardization**
+   - Used 80% training, 20% testing
+   - Standardized features using `StandardScaler`
+4. **Model Training**
+   - Trained a Logistic Regression model using scikit-learn
+5. **Model Evaluation**
+   - Confusion Matrix
+   - Precision
+   - Recall
+   - ROC-AUC score
+   - ROC Curve plot
+6. **Threshold Tuning**
+   - Example with threshold = 0.3 to show effect on precision and recall
+7. **Sigmoid Function Explanation**
+   - Plotted sigmoid curve
+   - Explained its role in converting model outputs to probabilities
+
+
 
 
 
