@@ -144,6 +144,32 @@ This project demonstrates how to apply **Logistic Regression** for binary classi
 7. **Sigmoid Function Explanation**
    - Plotted sigmoid curve
    - Explained its role in converting model outputs to probabilities
+  
+   
+# Task 5 Heart Disease Prediction - Decision Tree & Random Forest
+
+## 📌 Project Overview
+This project uses the **Heart Disease Dataset** to train and evaluate two machine learning models:
+- **Decision Tree Classifier**
+- **Random Forest Classifier**
+
+We:
+1. Train and visualize a Decision Tree.
+2. Analyze overfitting by controlling tree depth.
+3. Train a Random Forest and compare accuracy.
+4. Interpret feature importances.
+5. Evaluate both models using cross-validation.
+
+---
+
+## 📂 Dataset
+The dataset used is `heart.csv`, which contains various medical attributes such as:
+- Age, sex, chest pain type, blood pressure, cholesterol, etc.
+- Target: `1` → Heart disease, `0` → No heart disease.
+
+---
+
+
 
 
 
