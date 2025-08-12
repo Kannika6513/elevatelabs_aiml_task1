@@ -105,3 +105,29 @@ Uses `heart.csv` to predict heart disease. Models used:
 5. Evaluate both models using cross-validation.  
 
 ---
+# 🌸 TASK 6 KNN Classification on Iris Dataset 🌼
+
+## 🌺 Steps Performed
+1. **Dataset**  
+   - Used `Iris.csv` dataset.  
+   - Dropped ID column.  
+   - Encoded species labels into numbers.  
+   - Normalized features using `StandardScaler`.  
+
+2. **🌻 Model**  
+   - Applied `KNeighborsClassifier` from `sklearn`.  
+   - Tested different `K` values to find the best accuracy.  
+
+3. **🌹 Evaluation**  
+   - Computed accuracy score.  
+   - Created confusion matrix.  
+
+4. **🌷 Visualization**  
+   - Plotted decision boundaries using first two normalized features.  
+   - Colors: ❤️ (Setosa), 💚 (Versicolor), 💙 (Virginica).  
+
+## 🌼 Output
+- Best K value  
+- Accuracy score  
+- Confusion matrix plot  
+- Decision boundary plot
