@@ -131,3 +131,24 @@ Uses `heart.csv` to predict heart disease. Models used:
 - Accuracy score  
 - Confusion matrix plot  
 - Decision boundary plot
+
+# 🎗 Breast Cancer Classification
+
+## 📌 Task
+Train a machine learning model on the **Breast Cancer Wisconsin dataset** 🩺 and visualize **decision boundaries** 🌈 for two selected features.
+
+## 📂 Dataset
+- Source: `sklearn.datasets.load_breast_cancer()`
+- Target: Malignant (0) / Benign (1)
+
+## 🛠 Steps
+1️⃣ Import libraries  
+2️⃣ Load & inspect dataset  
+3️⃣ Select 2 features for plotting  
+4️⃣ Split into train/test sets  
+5️⃣ Train classifier (e.g., Logistic Regression, SVM, KNN)  
+6️⃣ Plot decision boundaries & accuracy score  
+
+## 🚀 Output
+- Graph with decision boundary separation 🖌  
+- Accuracy printed in console 📈
