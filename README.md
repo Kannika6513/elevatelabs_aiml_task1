@@ -152,3 +152,26 @@ Train a machine learning model on the **Breast Cancer Wisconsin dataset** 🩺 a
 ## 🚀 Output
 - Graph with decision boundary separation 🖌  
 - Accuracy printed in console 📈
+
+  # 🧠 TASK 8- K-Means Clustering on Mall Customers Dataset
+
+## 📌 Steps Performed
+
+| Step | Description |
+|------|-------------|
+| 1️⃣ | **Load & Explore Dataset** → Loaded `Mall_Customers.csv` using Pandas, selected numerical features, standardized using `StandardScaler`. |
+| 2️⃣ | **PCA (Optional) for 2D Visualization** → Reduced dimensions to 2 using `PCA` for plotting. |
+| 3️⃣ | **Find Optimal K (Elbow Method)** → Plotted `Inertia vs K` curve, chose K from elbow point. |
+| 4️⃣ | **Fit K-Means Model** → Applied `KMeans` with optimal K, assigned cluster labels. |
+| 5️⃣ | **Visualize Clusters** → Plotted customers in PCA space with color-coded clusters & red centroids. |
+| 6️⃣ | **Evaluate Clustering** → Calculated **Silhouette Score** to measure quality. |
+
+---
+
+## 🛠 Libraries Used
+```python
+pandas  
+numpy  
+matplotlib  
+scikit-learn
+
