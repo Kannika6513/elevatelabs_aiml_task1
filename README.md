@@ -168,10 +168,30 @@ Train a machine learning model on the **Breast Cancer Wisconsin dataset** 🩺 a
 
 ---
 
-## 🛠 Libraries Used
-```python
-pandas  
-numpy  
-matplotlib  
-scikit-learn
+# 🎬 **Movie Recommendation System Project**
+A simple Movie Recommender System built with Python, Scikit-learn, Pandas, and Streamlit. It suggests movies based on user preferences using content-based filtering, collaborative filtering, and a hybrid approach. Optionally, it can also fetch movie posters from TMDb API.
+
+## **Features**
+Content-based filtering (TF-IDF + cosine similarity on genres), Collaborative filtering (latent factor model with Truncated SVD), Hybrid recommendations (mix of content + collaborative), Genre-based search option, Interactive Streamlit UI, Optional TMDb API integration for fetching posters.
+
+## **Project Structure**
+app.py (Streamlit web app), requirements.txt (dependencies), README.md (project info), data/ (place movies.csv & ratings.csv here).
+
+## **Dataset**
+Downloaded the MovieLens dataset (small version recommended): https://grouplens.org/datasets/movielens/latest/  
+Unzip it and place movies.csv and ratings.csv inside a folder named data/ so it looks like:  
+data/movies.csv  
+data/ratings.csv  
+
+## **Run the App**
+streamlit run app.py  
+Then open http://localhost:8501 in your browser.  
+  
+## **Usage**
+Enter favourite movies in the sidebar (e.g., Toy Story; The Matrix), Optionally select genres, Choose recommendation method: Content-based, Collaborative, or Hybrid, Get Top N recommendations instantly.
+
+## **Tech Stack**
+Python, Pandas, NumPy, Scikit-learn, Streamlit.  
+
+
 
